@@ -1,9 +1,10 @@
 import './App.css';
+import React from "react";
+import RoutesWrapper from "./RouteWrapper";
 
 function App() {
-  return (
-    <div className="App">
-    </div>
+  return ( 
+    <RoutesWrapper />
   );
 }
 
