@@ -6,7 +6,7 @@ import { GiFoodTruck } from "react-icons/gi";
 
 const Footer = () => {
   return (
-    <section className='h-96 bg-gray-300'>
+    <section className='h-96 bg-gray-300 shadow-2xl'>
     <div className='p-8 grid grid-cols-4 gap-10 '>
         <div className='flex flex-col gap-5 items-center'>
           <NavLink to="/">
