@@ -6,7 +6,7 @@ import Testimonials from "../components/home/Testimonial";
 import Food from "../components/home/Food";
 import ExploreFood from "../components/home/ExploreFood";
 import banner1 from "../assets/images/banner.jpg";
-import banner2 from "../assets/images/banner2.jpg";
+// import banner2 from "../assets/images/banner2.jpg";
 
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
           <Testimonials />
           <Blogs />
         </div>
-        <Banner image_url={banner2} />
+        {/* <Banner image_url={banner2} /> */}
       </Layout>
     </div>
   );
